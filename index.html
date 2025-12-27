@@ -83,7 +83,7 @@
             border: 8px dashed var(--primary);
             border-radius: 50%;
             /* Auto-start animation */
-            animation: revEngine 2.5s cubic-bezier(0.5, 0, 0.5, 1) forwards;
+            animation: revEngine 1.00s cubic-bezier(0.5, 0, 0.5, 1) forwards;
             box-shadow: 0 0 20px rgba(255, 94, 0, 0.3);
         }
 
@@ -93,7 +93,7 @@
             border: 6px dotted #555;
             border-radius: 50%;
             /* Auto-start animation */
-            animation: revEngineCounter 2.5s cubic-bezier(0.5, 0, 0.5, 1) forwards;
+            animation: revEngineCounter 1.00s cubic-bezier(0.5, 0, 0.5, 1) forwards;
         }
 
         .gear-hub {
@@ -664,7 +664,7 @@
                     overlay.style.display = 'none';
                     document.body.classList.add('loaded');
                 }, 800); 
-            }, 2500); // 2.5s duration
+            }, 1000); // 1.25s duration
         });
 
         // 2. SCROLL REVEAL
